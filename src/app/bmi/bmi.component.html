@@ -1,0 +1,19 @@
+<div>
+    <h1>Welcome to BMI Calculator!</h1>
+</div>
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+    <div class="form-group">
+        <label>Weight</label>
+        <input type="number" name="Weight" #Weight="ngModel" [(ngModel)]="service.formData.Weight" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>Height</label>
+        <input type="number" name="Height" #Height="ngModel" [(ngModel)]="service.formData.Height" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <button type="submit">Calculate</button>
+    </div>
+    <br>
+    <div>You BMI is: {{BMI}}</div>
+
+</form>
