@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Hosted Web Application using Amazon Web Service (AWS)
 
-Navigate to `https://d2uiqoprsimav3.cloudfront.net`. To view my web application
+Navigate to `https://d2uiqoprsimav3.cloudfront.net`
 
 ## Development server
 
